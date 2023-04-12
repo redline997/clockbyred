@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+body {
+    background-color: #111;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: green;
+    font-size: 65px;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 7px;
+}
